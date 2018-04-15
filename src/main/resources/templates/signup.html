@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleasf.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>SingUp</title>
+		<link rel="stylesheet" href="/css/boostrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>サインアップ</h1>
+			<form id="login_form" method="post" th:action="@{'/signup'}">
+				<div class="form-group">
+					<label class="control-label">ログインID</label>
+					<input type="text" class="form-control" name="user_id">
+				</div>
+				<div class="form-group">
+					<label class="control-label">パスワード</label>
+					<input type="text" class="form-control" name="pass">
+				</div>
+				<div class"form-group">
+					<label class="control-label">名前</label>
+					<input type="text" class="form-control" name="name">
+				</div>
+				<div class="form-group">
+					<input type="submit" values="ログイン">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

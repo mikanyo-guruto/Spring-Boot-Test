@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/java_task_test
+    username: root
+    password: 
+    driverClassName: com.mysql.jdbc.Driver
